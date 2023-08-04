@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet">
+    <title>Internet Sensation</title>
+</head>
+<body>
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+                <div class="cart_items">
+                    <p>Your Basket</p>
+                    <div class="cart_wrapper">
+                        <div class="cart_img">
+                            <img src="assets/images/cart-pro-img-1.png" alt="acifin hoodie">
+                        </div>
+                        <div class="cart_title">
+                            <h6>THE HOODIE</h6>
+                            <p>XL</p>
+                            <div class="cart_quantity">
+                                <div class="cart_quantity_sec">
+                                    <i class="fa fa-minus"></i>
+                                    <span>1</span>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <div class="cart_price">
+                                    <p>£45</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart_wrapper">
+                        <div class="cart_img">
+                            <img src="assets/images/cart-pro-img-2.png" alt="acifin hoodie">
+                        </div>
+                        <div class="cart_title">
+                            <h6>THE TEE</h6>
+                            <p>XL</p>
+                            <div class="cart_quantity">
+                                <div class="cart_quantity_sec">
+                                    <i class="fa fa-minus"></i>
+                                    <span>1</span>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <div class="cart_price">
+                                    <p>£45</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="mobile_pro_detail" style="display: none;">
+                    <div class="cart_wrapper">
+                        <p>Your Basket</p>
+                        <div class="cart_title">
+                            <h6>THE HOODIE</h6>
+                        </div>
+                        <div class="cart_img">
+                            <img src="assets/images/cart-pro-img-1.png" alt="acifin hoodie">
+                        </div>
+                        <div class="cart_quantity">
+                            <p>XL</p>
+                            <div class="cart_quantity_sec">
+                                <i class="fa fa-minus"></i>
+                                <span>1</span>
+                                <i class="fa fa-plus"></i>
+                            </div>
+                            <div class="cart_price">
+                                <p>£45</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart_wrapper">
+                        <div class="cart_title">
+                            <h6>THE TEE</h6>
+                        </div>
+                        <div class="cart_img">
+                            <img src="assets/images/cart-pro-img-2.png" alt="acifin tee">
+                        </div>
+                        <div class="cart_quantity">
+                            <p>XL</p>
+                            <div class="cart_quantity_sec">
+                                <i class="fa fa-minus"></i>
+                                <span>1</span>
+                                <i class="fa fa-plus"></i>
+                            </div>
+                            <div class="cart_price">
+                                <p>£45</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="cart_total">
+                    <p>Total</p>
+                    <hr>
+                    <p>£90</p>
+                </div>
+                <button class="cart_checkout">Checkout</button>
+        </div>
+    </div>    
+    <header class="main-header">
+        <div class="header_sec">
+            <div class="main_nav_bar">
+                <ul class="navbar-nav">
+                    <li class="active">
+                        <a href="index.html">Store</a>
+                    </li>
+                    <li>
+                        <a href="#">My Account</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Info</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart_sec">
+                <button class="cart_icon" id="openModalBtn">
+                    <img src="assets/images/cart-icon.png" alt="Cart-Icon">
+                </button>
+                <div class="small_logo">
+                    <img src="assets/images/small-logo.png" alt="acifin">
+                </div>
+            </div>
+        </div>
+        <div class="logo_sec">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="Internet-sensation">
+            </a>
+        </div>
+    </header>
+    <main class="product_wrapper">
+        <div class="container">
+            <section class="product_sec">
+                <div class="pro_detail_sec">
+                    <div class="pro_img">
+                        <img src="assets/images/product_img.png" alt="acifin hoodie">
+                    </div>
+                    <div class="pro_title">
+                        <h6>THE HOODIE</h6>
+                        <p>£45</p>
+                    </div>
+                    <div class="pro_discri">
+                        <p>Premium, heavyweight, washed hoodie.</p>
+                        <p>Lilac 'Internet Sensation' Print.</p>
+                    </div>
+                    <div class="pro_size_sec">
+                        <div class="pro_size">
+                            <p>XS</p>
+                            <p>S</p>
+                            <p>M</p>
+                            <p>L</p>
+                            <p class="active">XL</p>
+                        </div>
+                        <button class="buy_now">BUY NOW</button>
+                    </div>
+                    <div class="tab_price_sec" style="display: none;">
+                        <p>£45</p>
+                        <button class="buy_now add-to-cart">BUY NOW</button>
+                        </div>
+                    <div class="tab_pro_size" style="display: none;">
+                        <div class="pro_size">
+                            <p>XS</p>
+                            <p>S</p>
+                            <p>M</p>
+                            <p>L</p>
+                            <p class="active">XL</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_detail_sec">
+                    <div class="pro_img">
+                        <img src="assets/images/product_img_1.png" alt="acifin tee">
+                    </div>
+                    <div class="pro_title">
+                        <h6>THE TEE</h6>
+                        <p>£45</p>
+                    </div>
+                    <div class="pro_discri">
+                        <p>Oversized, heavyweight, washed tee.</p>
+                        <p>Lilac 'Internet Sensation' Print.</p>
+                    </div>
+                    <div class="pro_size_sec">
+                        <div class="pro_size">
+                            <p>XS</p>
+                            <p>S</p>
+                            <p>M</p>
+                            <p>L</p>
+                            <p class="active">XL</p>
+                        </div>
+                        <button class="buy_now">BUY NOW</button>
+                    </div>
+                    <div class="tab_price_sec" style="display: none;">
+                        <p>£45</p>
+                        <button class="buy_now add-to-cart">BUY NOW</button>
+                    </div>
+                    <div></div>
+                    <div class="tab_pro_size" style="display: none;">
+                        <div class="pro_size">
+                            <p>XS</p>
+                            <p>S</p>
+                            <p>M</p>
+                            <p>L</p>
+                            <p class="active">XL</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="tab_cart_sec" style="display: none;">
+                <button class="cart_icon" id="openModalBtnn">
+                    <img src="assets/images/cart-icon.png" alt="Cart-Icon">
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="main_footer">
+        <div class="container">
+            <div class="footer_sec">
+                <div class="footer_div footer_menu">
+                    <div class="footer_menu_bar">
+                        <ul>
+                            <li>
+                                <a href="faq-page.html">Faq's</a>
+                            </li>
+                            <li>
+                                <a href="#">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_menu_bar">
+                        <ul>
+                            <li>
+                                <a href="terms.html">Terms of Service</a>
+                            </li>
+                            <li>
+                                <a href="#">Refund Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Returns</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_div">
+                    <img src="assets/images/footer-logo.png" alt="Acifin">
+                </div>
+                <div class="footer_div">
+                    <div class="social-media">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/instagram.png" alt="Instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/messenger.png" alt="Messenger">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/twitter.png" alt="Twitter">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright_sec">
+                        <p>2023 Internet Sensation</p>
+                        <p>Powered By <strong>ACIFIN MERCHANDISE</strong></p>
+                    </div>
+                    <div class="footer_logo">
+                        <a href="index.html">
+                            <img src="assets/images/acifin-logo.png" alt="Acifin Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_footer_sec" style="display: none;">
+                <div class="footer_sec">
+                    <div class="footer_div footer_menu">
+                        <div class="footer_menu_bar">
+                            <ul>
+                                <li>
+                                    <a href="contact-us.html">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="faq-page.html">Faq's</a>
+                                </li>
+                                <li>
+                                    <a href="terms.html">Terms of Service</a>
+                                </li>
+                                <li>
+                                    <a href="#">Refund Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Returns</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_div">
+                        <img src="assets/images/footer-logo.png" alt="Acifin">
+                    </div>
+                    <div class="footer_div">
+                        <div class="social-media">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/instagram.png" alt="Instagram">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/messenger.png" alt="Messenger">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/twitter.png" alt="Twitter">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="copyright_sec">
+                            <p>2023 Internet Sensation</p>
+                            <p>Powered By <strong>ACIFIN MERCHANDISE</strong></p>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="index.html">
+                                <img src="assets/images/acifin-logo.png" alt="Acifin Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_footer_sec" style="display: none;">
+                <div class="footer_sec">
+                    <div class="footer_div">
+                        <img src="assets/images/footer-logo.png" alt="Acifin">
+                    </div>
+                    <div class="footer_div footer_menu">
+                        <div class="footer_menu_bar">
+                            <ul>
+                                <li>
+                                    <a href="contact-us.html">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="faq-page.html">Faq's</a>
+                                </li>
+                                <li>
+                                    <a href="terms.html">Terms of Service</a>
+                                </li>
+                                <li>
+                                    <a href="#">Refund Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Returns</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_div">
+                        <div class="social-media">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/instagram.png" alt="Instagram">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/messenger.png" alt="Messenger">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/twitter.png" alt="Twitter">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="copyright_sec">
+                            <p>2023 Internet Sensation</p>
+                            <p>Powered By <strong>ACIFIN MERCHANDISE</strong></p>
+                        </div>
+                        <div class="footer_logo">
+                            <a href="index.html">
+                                <img src="assets/images/acifin-logo.png" alt="Acifin Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const openModalBtn = document.getElementById("openModalBtn");
+        const openModalBtnn = document.getElementById("openModalBtnn");
+        const cartModal = document.getElementById("cartModal");
+        const closeModal = document.getElementsByClassName("close")[0];
+        openModalBtn.addEventListener("click", function() {
+        cartModal.style.display = "block";
+        });
+        closeModal.addEventListener("click", function() {
+        cartModal.style.display = "none";
+        });
+        openModalBtnn.addEventListener("click", function() {
+        cartModal.style.display = "block";
+        });
+        closeModal.addEventListener("click", function() {
+        cartModal.style.display = "none";
+        });
+    </script> 
+</body>
+</html>
